@@ -1,0 +1,4 @@
+export default {
+  CREATE_CLIENTE: 'CREATE_CLIENTE', 
+  READ_CLIENTES: 'READ_CLIENTES',
+}
