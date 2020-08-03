@@ -7,6 +7,7 @@ import light from './styles/themes/light';
 
 import Listagem from './pages/Listagem';
 import Adicao from './pages/Adicao';
+import Editar from './pages/Editar';
 
 export default () => (
   <ThemeProvider theme={light}>
@@ -16,6 +17,9 @@ export default () => (
       </Route>
       <Route path='/add'>
         <Adicao />
+      </Route>
+      <Route path='/edit/:id'>
+        <Editar />
       </Route>
     </Router>
   </ThemeProvider>

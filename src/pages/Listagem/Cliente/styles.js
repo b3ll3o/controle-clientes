@@ -12,8 +12,20 @@ export default styled.div`
   flex-direction: column;
   border-radius: .5rem;
 
-  .nome {
-    font-weight: bold;
+  .primeira-linha{
+    display: flex;
+    
+    .nome {
+      font-weight: bold;
+    }
+
+    .actions-container{
+      display: flex;
+      width: 5rem;
+      justify-content: space-around;
+      
+    }
   }
+
 
 `;
